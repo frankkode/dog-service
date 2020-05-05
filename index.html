@@ -27,6 +27,13 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!--send email with mailjs-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_O1o8IMjyMMzoWmrIjKUtv");
+        })();
+    </script>
 </head>
 
 <body>
@@ -308,10 +315,11 @@
                             </div>
                             <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
                             <!-- section Body -->
-                            <form action="POST" onsubmit="return sendMail(this);" method="post" id="id01">
+                            <form onsubmit="return sendMail(this);">
                                 <div class="md-form">
                                     <i class="fa fa-user prefix grey-text"></i>
-                                    <input type="text" id="name" class="form-control" placeholder="Name">
+                                    <input type="text" name="name" id="fullname" class="form-control"
+                                        placeholder="Name">
                                     <label for="form-name"></label>
                                 </div>
                                 <div class="md-form">
@@ -328,8 +336,8 @@
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                    <textarea name="projectsummary" id="informationsummary"
-                                        class="form-control md-textarea" rows="3" placeholder="Message"></textarea>
+                                    <textarea name="servicesummary" id="servicesummary" class="form-control md-textarea"
+                                        rows="3" placeholder="Message"></textarea>
                                     <label for="form-text"></label>
                                 </div>
                                 <div class="text-center">
@@ -502,16 +510,6 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -531,8 +529,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
-    <!--send email-->
-    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
     <!-- Sends emails on submit button using the contact form -->
     <script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/tests/sendMailTest.js"></script>
