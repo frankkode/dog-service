@@ -66,6 +66,104 @@
             </div>
         </nav>
         <!--end navbar-->
+        <!--logo title-->
+        <h1 class="doggy-title-big text-center" id="home">The Doggy Hub</h1>
+        <!--jambotron with calling image-->
+        <div class="jumbotron jumbotron-fluid position-relative arrow-down arrow-danger">
+            <div class="container-fluid position-fixed" id="homepage-header"></div>
+            <div class="container-fluid h-100 position-absolute bg-dark"></div>
+            <div class="h-75 d-flex align-items-center justify-content-center">
+                <img src="assets/images/dog.png" alt="dog" class="col-sm-10 col-md-8 pr-4 pt-5" id="logo-header">
+            </div>
+
+        </div> <!-- endjumbotron -->
+    </header>
+    <!--services-->
+    <div class="flex-container">
+
+        <form class="search-form ">
+            <h1 class="doggy-title-big text-center" id="services">Find dog services! </h1>
+            <!--search form-->
+            <div>
+                <input id="user-input" class="search-form-input placeholder-style " type="text"
+                    placeholder="Add location...">
+            </div>
+            <!--service buttons-->
+            <div class="search-form-search-buttons search-form-search-buttons-background">
+                <div>
+                    <button data-name="walk-button" type="button" value="dog walker" class="search-form-button">
+                        <i class="fa fa-paw search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text ">D-Walk</span>
+                    </button>
+                </div>
+                <div>
+                    <button data-name="sit-button" type="button" value="dog sitter, dog sitting, pet sitting"
+                        class="search-form-button">
+                        <i class="fa fa-home search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text">D-Sit</span>
+                    </button>
+                </div>
+                <div>
+                    <button data-name="board-button" type="button" value="dog kennels, cattery"
+                        class="search-form-button">
+                        <i class="fa fa-bed search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text">D-Board</span>
+                    </button>
+                </div>
+                <div>
+                    <button data-name="vet-button" type="button" value="vet" class="search-form-button">
+                        <i class="fa fa-stethoscope search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text">D-Vet</span>
+                    </button>
+                </div>
+                <div>
+                    <button data-name="shop-button" type="button" value="pet shop" class="search-form-button">
+                        <i class="fa fa-shopping-basket search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text">D-Shop</span>
+                    </button>
+                </div>
+                <div>
+                    <button data-name="groom-button" type="button" value="dog groomer, pet grooming"
+                        class="search-form-button">
+                        <i class="fa fa-scissors search-form-icon-style" aria-hidden="true"></i>
+                        <span class="search-form-button-text">D-Groom</span>
+                    </button>
+                </div>
+            </div>
+            <div class="search-form__go">
+                <a href='#scrollTo'><button id="go" type="button" class="search-form__go-button searchform-go-button"><i
+                            class="fa fa-search"></i></button></a>
+            </div>
+        </form>
+    </div>
+    <section id="scrollTo" class="hide-results">
+        <div class="all-results all-results-background">
+            <div class="all-results-results">
+                <div class="results-display">
+                    <div id="map"></div>
+                </div>
+                <p class="results-map-instructions"><i class="fa fa-exclamation-triangle"></i> Click on a marker for
+                    more
+                    info.</p>
+                <div id="results-text-show" class="all-resultstext ">
+                    <div id="text" class="resultstext mr-1"></div>
+                </div>
+                <div class="all-results-reset">
+                    <button id="reset-button" class=" all-results-reset-button" type="button"
+                        value="reset">Close!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end service buttons-->
+    <!--warning modal-->
+    <div class="modal">
+        <div class="modal__content ">
+            <p class="modal__content-text"></p>
+            <span class="modal__content-close">&times;</span>
+        </div>
+    </div>
+    <!--end end warning modal-->
 
 
 
@@ -77,27 +175,35 @@
 
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
-        </script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
-        </script>
-        <!-- ScrollMagic JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <!--google map-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+    </script>
+    <!-- ScrollMagic JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <!--google map-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-CXRwTcTgC8tAAbiYZ6T4BWGD9FK9uCs&libraries=places">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+    <!--send email-->
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <!-- Sends emails on submit button using the contact form -->
+    <script src="assets/js/sendEmail.js"></script>
+    <script src="assets/js/tests/sendMailTest.js"></script>
 
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-        <!-- Custom JS -->
-
-
-
+    <!--google translate-->
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!--tidio chart-->
+    <script src="//code.tidio.co/crhf0u4tbqw73dejadgbatntpefld23l.js" async></script>
 </body>
 
 </html>

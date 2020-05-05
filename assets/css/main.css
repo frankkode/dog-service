@@ -94,3 +94,71 @@ body {
     width: 200px;
     font-size: 300px;
 }
+
+/* calling page*/
+.jumbotron {
+    /*   height: 380px; */
+    height: 100vh;
+    margin: 0;
+    margin-bottom: -150px;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+    z-index: -2;
+}
+
+#homepage-header {
+    background-image: #000 url("/assets/images/dog.png") no-repeat -100px -50px fixed;
+    background-size: auto 550px;
+    background-repeat: no-repeat, repeat;
+    height: 100vh;
+    background-color: rgb(237, 127, 44);
+    z-index: -1;
+}
+
+#logo-header {
+    max-width: 900px;
+
+}
+
+
+:focus,
+:active,
+button:focus,
+button:active {
+    outline: none;
+    box-shadow: none;
+}
+
+h1,
+h2 {
+    font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+/* animate image on loved dogs*/
+
+#quicklinks img {
+    margin: 10px auto;
+    transition: all .7s ease;
+}
+
+#quicklinks img:hover {
+    margin: 0px auto;
+}
