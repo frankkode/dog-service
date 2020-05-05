@@ -1,0 +1,96 @@
+/* Typekit fonts need @import to show up in browsers */
+@import url("https://use.typekit.net/upo7xbg.css");
+
+/* scroll to section*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+/*top title*/
+#home {
+    background-color: rgb(255, 236, 212);
+    margin-bottom: 0;
+}
+
+/*jambotron over color*/
+.bg-dark {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+.bg-trans {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*main title*/
+.doggy-title-big {
+    font-family: 'Dr Sugiyama';
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    color: #bed336;
+}
+
+/*arrow pointing down*/
+.arrow-down::after {
+    border: 20px solid transparent;
+    content: "";
+    float: left;
+    height: 0;
+    left: calc(50% - 15px);
+    position: relative;
+    width: 0;
+
+}
+
+.arrow-danger::after {
+    border-top: 20px solid #a8ff45;
+}
+
+.line-below::after {
+    border-bottom: 10px solid rgba(11, 205, 226, 0.899);
+    content: "";
+    display: block;
+    padding-top: 1.1rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+}
+
+#nav-header {
+    margin-top: -55px;
+}
+
+/*navlinks*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 236, 212);
+    font-size: 1.5rem;
+    font-family: adobe-handwriting-frank, sans-serif;
+
+    font-weight: 1500px;
+
+    font-style: normal;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: coral;
+    font-size: 2rem;
+    font-family: adobe-handwriting-frank, sans-serif;
+    text-decoration: underline;
+    font-weight: 1500px;
+
+}
+
+/*nav image*/
+.navbar-brand img {
+    margin-top: -5px;
+    opacity: 0;
+    width: 200px;
+    font-size: 300px;
+}
