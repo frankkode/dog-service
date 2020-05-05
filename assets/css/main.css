@@ -162,3 +162,129 @@ h5 {
 #quicklinks img:hover {
     margin: 0px auto;
 }
+
+/*most loved section*/
+.most-loved {
+    background-color: #741b4a;
+    z-index: 1;
+    border-width: 10px;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+}
+
+/* titles*/
+.most-loved-title {
+    font-family: 'Dr Sugiyama';
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(119, 113, 32);
+}
+
+/*about us*/
+.about-background {
+    background: url(/assets/images/about-1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-about {
+    color: #741b4a;
+}
+
+/*photo loved dogs*/
+.inline-photo {
+    border-radius: .25em;
+    box-shadow: 1em 1em 2em .25em rgba(0, 0, 0, .2);
+    margin: 2em auto;
+    transform: rotateZ(-2deg);
+    max-width: 600px;
+    width: 90%;
+}
+
+/*training*/
+#wetrain-video {
+    background-color: #007ca0;
+}
+
+/*contact us*/
+.website-button {
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #b2d505;
+    color: #0e0920;
+    -webkit-transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.website-button:hover,
+.website-button:focus {
+    background-color: #0e0920;
+    color: #d56d05;
+}
+
+#contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-form-style {
+    background-color: darkcyan;
+    border: 2px solid rgb(234, 255, 0);
+}
+
+.contact-button {
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #d56d05;
+    color: #0e0920;
+    -webkit-transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact-button:hover,
+.contact-button:focus {
+    background-color: #0e0920;
+    color: #d56d05;
+}
+
+/*address map*/
+#map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.map-container-section {
+    border: 3px solid rgb(0, 187, 255);
+}
