@@ -288,3 +288,132 @@ h5 {
 .map-container-section {
     border: 3px solid rgb(0, 187, 255);
 }
+
+/*footer*/
+
+footer {
+    background-color: #222;
+    margin-bottom: 0px !important;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer i.fa {
+    color: #ccc;
+    font-size: 1.2rem;
+    padding: 5px 10px 5px 0;
+}
+
+.logo-footer {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    background-color: #bed336;
+}
+
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer #site-map {
+    color: #ccc;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    padding-top: 30px;
+}
+
+footer p.page-title {
+    color: white;
+    font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: .9rem;
+    padding-top: .3rem;
+}
+
+footer ul li {
+    margin-bottom: .4rem;
+}
+
+a:link,
+a:visited {
+    color: #62bacd;
+}
+
+a:hover {
+    color: #6dcff6;
+    text-decoration: none;
+}
+
+a:active {
+    color: #343a40;
+}
+
+/*copyright*/
+
+#copyright {
+    width: 100%;
+}
+
+#copyright p {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.8;
+    padding: 20px;
+    text-align: center;
+}
+
+#copyright a:link {
+    color: #ccc;
+}
+
+#copyright a:visited {
+    color: #ccc;
+}
+
+#copyright a:hover {
+    color: #6DCFF6;
+}
+
+#copyright a:active {
+    color: #007ca0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #homepage-header {
+        background-position: 0px -50px;
+    }
+
+    .navbar-brand img {
+        margin-top: -5px;
+        width: 240px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #homepage-header {
+        background-position: 0px -50px;
+        background-size: auto 650px;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #homepage-header {
+        background-position: 100px -130px;
+        background-size: auto 1000px;
+    }
+}
