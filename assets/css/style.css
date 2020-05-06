@@ -1,3 +1,292 @@
+/* scroll to section*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "proxima-nova", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+/*top title*/
+#home {
+    background-color: rgb(255, 236, 212);
+    margin-bottom: 0;
+}
+
+/*jambotron over color*/
+.bg-dark {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+.bg-trans {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*main title*/
+.doggy-title-big {
+    font-family: 'Dr Sugiyama';
+    font-weight: 700;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    color: #bed336;
+}
+
+/*arrow pointing down*/
+.arrow-down::after {
+    border: 20px solid transparent;
+    content: "";
+    float: left;
+    height: 0;
+    left: calc(50% - 15px);
+    position: relative;
+    width: 0;
+
+}
+
+.arrow-danger::after {
+    border-top: 20px solid #a8ff45;
+}
+
+.line-below::after {
+    border-bottom: 10px solid rgba(11, 205, 226, 0.899);
+    content: "";
+    display: block;
+    padding-top: 1.1rem;
+    margin-bottom: 1rem;
+    width: 6rem;
+}
+
+#nav-header {
+    margin-top: -55px;
+}
+
+/*navlinks*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 236, 212);
+    font-size: 1.5rem;
+    font-family: adobe-handwriting-frank, sans-serif;
+
+    font-weight: 1500px;
+
+    font-style: normal;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: coral;
+    font-size: 2rem;
+    font-family: adobe-handwriting-frank, sans-serif;
+    text-decoration: underline;
+    font-weight: 1500px;
+
+}
+
+/*nav image*/
+.navbar-brand img {
+    margin-top: -5px;
+    opacity: 0;
+    width: 200px;
+    font-size: 300px;
+}
+
+/* calling page*/
+.jumbotron {
+    /*   height: 380px; */
+    height: 100vh;
+    margin: 0;
+    margin-bottom: -150px;
+    padding: 0;
+    background-color: rgb(7, 7, 7);
+    z-index: -2;
+}
+
+#homepage-header {
+    background-image: #000 url("/assets/images/dog.png") no-repeat -100px -50px fixed;
+    background-size: auto 550px;
+    background-repeat: no-repeat, repeat;
+    height: 100vh;
+    background-color: rgb(237, 127, 44);
+    z-index: -1;
+}
+
+#logo-header {
+    max-width: 900px;
+
+}
+
+
+:focus,
+:active,
+button:focus,
+button:active {
+    outline: none;
+    box-shadow: none;
+}
+
+h1,
+h2 {
+    font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+/* animate image on loved dogs*/
+
+#quicklinks img {
+    margin: 10px auto;
+    transition: all .7s ease;
+}
+
+#quicklinks img:hover {
+    margin: 0px auto;
+}
+
+/*most loved section*/
+.most-loved {
+    background-color: #741b4a;
+    z-index: 1;
+    border-width: 10px;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+}
+
+/* titles*/
+.most-loved-title {
+    font-family: 'Dr Sugiyama';
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(119, 113, 32);
+}
+
+/*about us*/
+.about-background {
+    background: url(/assets/images/about-1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-about {
+    color: #741b4a;
+}
+
+/*photo loved dogs*/
+.inline-photo {
+    border-radius: .25em;
+    box-shadow: 1em 1em 2em .25em rgba(0, 0, 0, .2);
+    margin: 2em auto;
+    transform: rotateZ(-2deg);
+    max-width: 600px;
+    width: 90%;
+}
+
+/*training*/
+#wetrain-video {
+    background-color: #007ca0;
+}
+
+/*contact us*/
+.website-button {
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #b2d505;
+    color: #0e0920;
+    -webkit-transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.website-button:hover,
+.website-button:focus {
+    background-color: #0e0920;
+    color: #d56d05;
+}
+
+#contact {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.contact-form-style {
+    background-color: darkcyan;
+    border: 2px solid rgb(234, 255, 0);
+}
+
+.contact-button {
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #d56d05;
+    color: #0e0920;
+    -webkit-transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: color, 0.3s, background-color, 0.3s, cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact-button:hover,
+.contact-button:focus {
+    background-color: #0e0920;
+    color: #d56d05;
+}
+
+/*address map*/
+#map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.map-container-section {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-section iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.map-container-section {
+    border: 3px solid rgb(0, 187, 255);
+}
+
+
 /*forms container*/
 .flex-container {
     display: -webkit-box;
@@ -632,4 +921,133 @@ a {
     font-family: "Quicksand", sans-serif;
     color: #0e0920;
     z-index: 2;
+}
+
+/*footer*/
+
+footer {
+    background-color: #222;
+    margin-bottom: 0px !important;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer i.fa {
+    color: #ccc;
+    font-size: 1.2rem;
+    padding: 5px 10px 5px 0;
+}
+
+.logo-footer {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    background-color: #bed336;
+}
+
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer #site-map {
+    color: #ccc;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    padding-top: 30px;
+}
+
+footer p.page-title {
+    color: white;
+    font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: .9rem;
+    padding-top: .3rem;
+}
+
+footer ul li {
+    margin-bottom: .4rem;
+}
+
+a:link,
+a:visited {
+    color: #62bacd;
+}
+
+a:hover {
+    color: #6dcff6;
+    text-decoration: none;
+}
+
+a:active {
+    color: #343a40;
+}
+
+/*copyright*/
+
+#copyright {
+    width: 100%;
+}
+
+#copyright p {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 1.8;
+    padding: 20px;
+    text-align: center;
+}
+
+#copyright a:link {
+    color: #ccc;
+}
+
+#copyright a:visited {
+    color: #ccc;
+}
+
+#copyright a:hover {
+    color: #6DCFF6;
+}
+
+#copyright a:active {
+    color: #007ca0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #homepage-header {
+        background-position: 0px -50px;
+    }
+
+    .navbar-brand img {
+        margin-top: -5px;
+        width: 240px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #homepage-header {
+        background-position: 0px -50px;
+        background-size: auto 650px;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #homepage-header {
+        background-position: 100px -130px;
+        background-size: auto 1000px;
+    }
 }
