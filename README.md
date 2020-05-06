@@ -90,21 +90,21 @@ Home Page:
 This home page is quite a basic intro page for the user when they land on the web app. On here you find calling image of beatful and healphy dog.
 
 This is quite a summary to quickly cover what the web app is about.
-HOME: ![Alt](assets/images/home-m.png "home")
+HOME wireframe: ![Alt](assets/images/home-m.png "home")
 
-HOME: ![Alt](assets/images/home-small.png "home")
+HOME small screen: ![Alt](assets/images/home-small.png "home")
 
-HOME: ![Alt](assets/images/home.png "home")
+HOME big screen: ![Alt](assets/images/home.png "home")
 
 About Page:
 
 On this page, I have talked about the site, who we are and what is our initiative.
 
-ABOUT: ![Alt](assets/images/about-m.png "about")
+ABOUT wireframe: ![Alt](assets/images/about-m.png "about")
 
-ABOUT: ![Alt](assets/images/about-small.png "about")
+ABOUT small screen: ![Alt](assets/images/about-small.png "about")
 
-ABOUT: ![Alt](assets/images/about.png "about")
+ABOUT big screen: ![Alt](assets/images/about.png "about")
 
 ## services Page
 
@@ -114,22 +114,22 @@ I have implemented 6 button link d-walk, s-sit, d-boad, d-vet, d-shop, d-groom .
 
 In terms of responsiveness, The buttons will be centered on mobile, the button will shrink to fit the width af all devices.
 
-SERVICES: ![Alt](assets/images/service-m.png "services")
+SERVICES wireframe: ![Alt](assets/images/service-m.png "services")
 
-SERVICES: ![Alt](assets/images/service-small.png "services")
+SERVICES small screen: ![Alt](assets/images/service-small.png "services")
 
-SERVICES: ![Alt](assets/images/service-search.png "services")
+SERVICES big screen: ![Alt](assets/images/service-search.png "services")
 
 ## LOVE SECTION
 
 - here you can find the loved dogs
   pictures and names
 
-LOVED DOGS: ![Alt](assets/images/love-m.png "love")
+LOVED DOGS wireframe: ![Alt](assets/images/love-m.png "love")
 
-LOVED DOGS: ![Alt](assets/images/love-small.png "love")
+LOVED DOGS small screen: ![Alt](assets/images/love-small.png "love")
 
-LOVED DOGS: ![Alt](assets/images/love.png "love")
+LOVED DOGS big screen: ![Alt](assets/images/love.png "love")
 
 ## Contact Page
 
@@ -141,19 +141,19 @@ The google maps API fetches the location and shows the nearby place.
 
 These features are all responsive within the web app and can enlarge/shrink in a suitable matter to meet the right user experience needs depending on the size of the screen.
 
-CONTACT US: ![Alt](assets/images/contact-m.png "contact")
+CONTACT US wireframe: ![Alt](assets/images/contact-m.png "contact")
 
-CONTACT US: ![Alt](assets/images/contact-small.png "contact")
+CONTACT US small screen: ![Alt](assets/images/contact-small.png "contact")
 
-CONTACT US: ![Alt](assets/images/contact.png "contact")
+CONTACT US big screen: ![Alt](assets/images/contact.png "contact")
 
 ## Trainings
 
 on this section you will see the video showing how to train your dog and a link to training page on youtube
 
-TRAINING: ![train-image](assets/images/train-small.png "training")
+TRAINING small screen: ![train-image](assets/images/train-small.png "training")
 
-TRAINING: ![Alt](assets/images/training.png "training")
+TRAINING desktop: ![Alt](assets/images/training.png "training")
 
 ## The footer
 
