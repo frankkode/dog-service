@@ -122,8 +122,8 @@ SERVICES: ![Alt](assets/images/service-search.png "services")
 
 ## LOVE SECTION
 
--here you can find the loved dogs
-pictures and names
+- here you can find the loved dogs
+  pictures and names
 
 LOVED DOGS: ![Alt](assets/images/love-m.png "love")
 
@@ -151,26 +151,26 @@ CONTACT US: ![Alt](assets/images/contact.png "contact")
 
 on this section you will see the video showing how to train your dog and a link to training page on youtube
 
-TRAINING: ![Alt](assets/images/training-small.png "training")
+TRAINING: ![train-image](assets/images/train-small.png "training")
 
 TRAINING: ![Alt](assets/images/training.png "training")
 
 ## The footer
 
--The footer includes links to all my social media pages. In case they want to get in touch through different platforms or view my profile.
-direct link to call us and to email us.
+- The footer includes links to all my social media pages. In case they want to get in touch through different platforms or view my profile.
+  direct link to call us and to email us.
 
--Links to different helpfull association, adoption and dog's rights.
+- Links to different helpfull association, adoption and dog's rights.
 
--There is also a disclaimer for copyright at the very bottom of the web app.
+- There is also a disclaimer for copyright at the very bottom of the web app.
 
--Links to different helpfull association, adoption and dog's rights
+- Links to different helpfull association, adoption and dog's rights
 
 FOOTER: ![Alt](assets/images/footer-m.png "footer")
 
-FOOTER: ![Alt](assets/images/footer small.png "footer")
+FOOTER: ![Alt](assets/images/small.png "footer")
 
-FOOTER: ![Alt](assets/images/footer.png "footer")
+FOOTER: ![Alt](assets/images/fotter.png "footer")
 
 ### Features to implement in the future
 
@@ -299,7 +299,11 @@ The background image, the loved dogs images and taken from free image website un
 6. [Font-awesome](https://fontawesome.com/)
 7. [Stack Overflow](https://stackoverflow.com/)
 8. [Google Maps - Places API](https://developers.google.com/maps/documentation/javascript/reference/3)
-9. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/) 10.[tidio](https://www.tidio.com/) 11.[Code institute](https://courses.codeinstitute.net/)
+9. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
+
+   10.[tidio](https://www.tidio.com/)
+
+   11.[Code institute](https://courses.codeinstitute.net/)
 
 ## Disclaimer
 
