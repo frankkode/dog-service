@@ -104,7 +104,6 @@ body {
 }
 
 #homepage-header {
-    background-image: #000 url("assets/images/dog.png") no-repeat -100px -50px fixed;
     background-size: auto 550px;
     background-repeat: no-repeat, repeat;
     height: 100vh;
@@ -178,8 +177,8 @@ h5 {
 }
 
 /*about us*/
-.about-background {
-    background: url("assets/images/about-1.jpg") no-repeat center;
+#about {
+    background: url("/assets/images/about-1.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
