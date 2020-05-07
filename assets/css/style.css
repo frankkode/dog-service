@@ -178,10 +178,7 @@ h5 {
 
 /*about us*/
 div.about {
-    background: url("/assets/images/about-1.png") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url('/assets/images/about-1.png') no-repeat center;
     background-size: cover;
 }
 
