@@ -25,7 +25,7 @@
     <link href='https://fonts.googleapis.com/css?family=Dr Sugiyama' rel='stylesheet'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
             emailjs.init("user_O1o8IMjyMMzoWmrIjKUtv");
@@ -37,7 +37,7 @@
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trans" id="nav-header">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html" target="_self">
                 <!--logo-->
                 <img src="assets/images/dog.png" alt="Logo">
             </a>
@@ -287,12 +287,12 @@
     </section>
     <hr class="my-4">
     <!--Section: Contact-->
-    <div class="container" id="contact">
+    <div class=" container-fluid" id="contact">
         <!--Section: Content-->
         <section class="dark-grey-text mb-5">
 
             <!-- Section heading -->
-            <h1 class="font-weight-bold line-below most-loved-title  mb-4">Contact Us &#x1F436;</h1>
+            <h1 class="font-weight-bold line-below most-loved-title  mb-4">Contact Us</h1>
             <!-- Section description -->
             <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
@@ -316,22 +316,22 @@
                             <form onsubmit="return sendMail(this);">
                                 <div class="md-form">
                                     <i class="fa fa-user prefix grey-text"></i>
-                                    <input type="text" name="from_name" class="form-control" placeholder="Name">
+                                    <input type="text" name="name" class="form-control" placeholder="Name">
                                     <label for="form-name"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-envelope prefix grey-text"></i>
-                                    <input type="text" name="from_email" class="form-control" placeholder="Email">
+                                    <input type="text" name="emailaddress" class="form-control" placeholder="Email">
                                     <label for="form-email"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-tag prefix grey-text"></i>
-                                    <input type="text" name="from_subject" class="form-control" placeholder="Subject">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject">
                                     <label for="form-Subject"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                    <textarea type="text" name="service_request" class="form-control md-textarea"
+                                    <textarea type="text" name="servicesummary" class="form-control md-textarea"
                                         rows="3" placeholder="Message"></textarea>
                                     <label for="form-text"></label>
                                 </div>
@@ -508,9 +508,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
         integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous">
     </script>
@@ -522,7 +520,6 @@
     <!--google map-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-CXRwTcTgC8tAAbiYZ6T4BWGD9FK9uCs&libraries=places">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
 

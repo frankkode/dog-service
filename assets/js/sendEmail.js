@@ -1,9 +1,9 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "dog_service", {
+    emailjs.send("gmail", "doggy_services", {
             "from_name": contactForm.name.value,
             "from_subject": contactForm.subject.value,
             "from_email": contactForm.emailaddress.value,
-            "service_request": contactForm.servicesummary.value
+            "from_content": contactForm.servicesummary.value
         })
         .then(
             function (response) {
