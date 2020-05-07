@@ -27,11 +27,11 @@ body {
 /*main title*/
 .doggy-title-big {
   font-family: "Dr Sugiyama";
-  font-weight: 800;
-  font-size: 55px;
+  font-weight: 700;
+  font-size: 45px;
   font-style: normal;
   text-align: center;
-  color: #ff7433;
+  color: #d36836;
 }
 
 /*arrow pointing down*/
@@ -168,7 +168,7 @@ h5 {
   font-family: "Dr Sugiyama";
   font-weight: 800;
   font-size: 45px;
-  color: rgb(119, 113, 32);
+  color: rgb(221, 115, 34);
 }
 
 /*about us*/
@@ -229,12 +229,12 @@ div.about {
 .contact-button {
   height: 3rem;
   width: 6rem;
-  border: 3px solid rgb(105, 235, 120);
+  border: 3px solid greenyellow;
   border-radius: 0.3rem;
-  background-color: #7ed505;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #fe4704;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #d56d05;
+  color: #0e0920;
 }
 
 .contact-button:hover,
