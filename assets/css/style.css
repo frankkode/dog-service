@@ -27,11 +27,11 @@ body {
 /*main title*/
 .doggy-title-big {
   font-family: "Dr Sugiyama";
-  font-weight: 700;
-  font-size: 45px;
+  font-weight: 800;
+  font-size: 55px;
   font-style: normal;
   text-align: center;
-  color: #bed336;
+  color: #ff7433;
 }
 
 /*arrow pointing down*/
@@ -104,7 +104,7 @@ body {
   background-size: auto 550px;
   background-repeat: no-repeat, repeat;
   height: 100vh;
-  background-color: rgb(237, 127, 44);
+  background-color: rgb(249, 192, 7);
   z-index: -1;
 }
 
@@ -229,14 +229,12 @@ div.about {
 .contact-button {
   height: 3rem;
   width: 6rem;
-  border: none;
+  border: 3px solid rgb(105, 235, 120);
   border-radius: 0.3rem;
-  background-color: #d56d05;
-  color: #0e0920;
-  -webkit-transition: color, 0.3s, background-color, 0.3s,
-    cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: color, 0.3s, background-color, 0.3s,
-    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #7ed505;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fe4704;
 }
 
 .contact-button:hover,
@@ -307,7 +305,10 @@ div.about {
 }
 
 /*serach form*/
-
+#services {
+  background: url("../images/ser.jpg") no-repeat center;
+  background-size: cover;
+}
 .search-form {
   opacity: 0;
   display: -webkit-box;
