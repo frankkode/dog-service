@@ -347,11 +347,7 @@ div.about {
   }
 }
 
-/*serach form*/
-#services {
-  background: url("../images/ser.jpg") no-repeat center;
-  background-size: cover;
-}
+/*search form*/
 
 .search-form {
   opacity: 0;
@@ -607,7 +603,7 @@ div.about {
   height: 4rem;
   border-radius: 3rem;
   border: 2px solid rgb(29, 8, 8);
-  background: rgb(246, 48, 3);
+  background: rgb(250, 135, 47);
   display: flex;
   justify-content: center;
   align-items: center;
