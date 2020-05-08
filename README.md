@@ -90,7 +90,6 @@ Home Page:
 This home page is quite a basic intro page for the user when they land on the web app. On here you find calling image of beatful and healphy dog.
 
 This is quite a summary to quickly cover what the web app is about.
-HOME wireframe: ![Alt](assets/images/home-m.png "home")
 
 HOME small screen: ![Alt](assets/images/home-small.png "home")
 
@@ -99,10 +98,6 @@ HOME big screen: ![Alt](assets/images/home.png "home")
 About Page:
 
 On this page, I have talked about the site, who we are and what is our initiative.
-
-ABOUT wireframe: ![Alt](assets/images/about-m.png "about")
-
-ABOUT small screen: ![Alt](assets/images/about-small.png "about")
 
 ABOUT big screen: ![Alt](assets/images/about.png "about")
 
@@ -114,7 +109,7 @@ I have implemented 6 button link d-walk, s-sit, d-boad, d-vet, d-shop, d-groom .
 
 In terms of responsiveness, The buttons will be centered on mobile, the button will shrink to fit the width af all devices.
 
-SERVICES wireframe: ![Alt](assets/images/service-m.png "services")
+SERVICES wireframe: ![Alt](assets/images/service.png "services")
 
 SERVICES small screen: ![Alt](assets/images/service-small.png "services")
 
@@ -124,8 +119,6 @@ SERVICES big screen: ![Alt](assets/images/service-search.png "services")
 
 - here you can find the loved dogs
   pictures and names
-
-LOVED DOGS wireframe: ![Alt](assets/images/love-m.png "love")
 
 LOVED DOGS small screen: ![Alt](assets/images/love-small.png "love")
 
@@ -141,19 +134,11 @@ The google maps API fetches the location and shows the nearby place.
 
 These features are all responsive within the web app and can enlarge/shrink in a suitable matter to meet the right user experience needs depending on the size of the screen.
 
-CONTACT US wireframe: ![Alt](assets/images/contact-m.png "contact")
-
-CONTACT US small screen: ![Alt](assets/images/contact-small.png "contact")
-
 CONTACT US big screen: ![Alt](assets/images/contact.png "contact")
 
 ## Trainings
 
 on this section you will see the video showing how to train your dog and a link to training page on youtube
-
-TRAINING small screen: ![train-image](assets/images/train-small.png "training")
-
-TRAINING desktop: ![Alt](assets/images/training.png "training")
 
 ## The footer
 
@@ -165,10 +150,6 @@ TRAINING desktop: ![Alt](assets/images/training.png "training")
 - There is also a disclaimer for copyright at the very bottom of the web app.
 
 - Links to different helpfull association, adoption and dog's rights
-
-FOOTER: ![Alt](assets/images/footer-m.png "footer")
-
-FOOTER: ![Alt](assets/images/small.png "footer")
 
 FOOTER: ![Alt](assets/images/fotter.png "footer")
 
@@ -246,6 +227,8 @@ Safari: The web app has been tested to make sure all sections are appearing corr
 
 Chrome: The web app has also been tested on the chrome browser making sure it is displayed consistently a long with Safari on the iPad device.
 
+iPad: ![iPad](assets/images/ipad.png "ipad")
+
 Desktop:
 
 Chrome: Testing was done to make sure all images/content was displayed clearly on the large desktop screen.
@@ -299,11 +282,7 @@ The background image, the loved dogs images and taken from free image website un
 6. [Font-awesome](https://fontawesome.com/)
 7. [Stack Overflow](https://stackoverflow.com/)
 8. [Google Maps - Places API](https://developers.google.com/maps/documentation/javascript/reference/3)
-9. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
-
-   10.[tidio](https://www.tidio.com/)
-
-   11.[Code institute](https://courses.codeinstitute.net/)
+9. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/) 10.[tidio](https://www.tidio.com/) 11.[Gradient](https://cssgradient.io/) 11.[Code institute](https://courses.codeinstitute.net/)
 
 ## Disclaimer
 
