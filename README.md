@@ -24,13 +24,13 @@ The purpose of the appliciation is to enable Dog owners to quickly and easily lo
 
 ## Users who would be interested in this web app: (Target dog owners)
 
-1.Someone looking for a dog walkout.
-2.Someone looking for an advice/help for their dogs.
-3.Someone looking for a dog's food store.
-4.Someone looking for dog's home care.
-5.Someone looking for dog's clinic.
-6.Someone looking for dog's gloom.
-7.Someone looking for dog's trainer.
+- Someone looking for a dog walkout.
+- Someone looking for an advice/help for their dogs.
+- Someone looking for a dog's food store.
+- Someone looking for dog's home care.
+- Someone looking for dog's clinic.
+- Someone looking for dog's gloom.
+- Someone looking for dog's trainer.
 
 ## Demo
 
@@ -151,7 +151,7 @@ on this section you will see the video showing how to train your dog and a link 
 
 - Links to different helpfull association, adoption and dog's rights
 
-FOOTER: ![Alt](assets/images/fotter.png "footer")
+FOOTER: ![Alt](assets/images/footer.png "footer")
 
 ### Features to implement in the future
 
@@ -180,6 +180,10 @@ Setting the contact page to send an automated email to the recipient once they s
 [Fotnawesome](https://fontawesome.com/) - This was used to fetch the icons for the social media platforms in the footer
 
 [JavaScript](https://developers.google.com/maps/documentation/javascript/reference/3) This was used to implement the google maps API,animation as well imprementing mailjs
+
+[Gradient](https://cssgradient.io/) free color mixer
+
+[Coveer](https://coverr.co/search?q=dog)a free video
 
 ## Testing
 
@@ -279,10 +283,14 @@ The background image, the loved dogs images and taken from free image website un
 3. [w3c Validator service](https://validator.w3.org/)
 4. [Google Fonts](https://fonts.google.com/)
 5. [Unsplash](https://unsplash.com/)
-6. [Font-awesome](https://fontawesome.com/)
-7. [Stack Overflow](https://stackoverflow.com/)
-8. [Google Maps - Places API](https://developers.google.com/maps/documentation/javascript/reference/3)
-9. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/) 10.[tidio](https://www.tidio.com/) 11.[Gradient](https://cssgradient.io/) 11.[Code institute](https://courses.codeinstitute.net/)
+6. [Coverr](https://coverr.co/search?q=dog)
+7. [Font-awesome](https://fontawesome.com/)
+8. [Stack Overflow](https://stackoverflow.com/)
+9. [Google Maps - Places API](https://developers.google.com/maps/documentation/javascript/reference/3)
+10. [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
+11. [Tidio](https://www.tidio.com/)
+12. [Gradient](https://cssgradient.io/)
+13. [Code institute](https://courses.codeinstitute.net/)
 
 ## Disclaimer
 
