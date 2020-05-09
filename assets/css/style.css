@@ -708,9 +708,17 @@ a {
 }
 
 .results-display {
-  width: 27rem;
+  width: 23rem;
   height: 20rem;
   position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (min-width: 767px) {
@@ -731,9 +739,15 @@ a {
   font-family: "Quicksand", sans-serif;
   font-size: 1rem;
   position: relative;
-  width: 25rem;
+  width: 22rem;
   height: auto;
   text-align: center;
+}
+
+@media (min-width: 767px) {
+  .all-resultstext {
+    width: 48rem;
+  }
 }
 
 @media (min-width: 767px) {

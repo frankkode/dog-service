@@ -3,7 +3,7 @@ $(window).scroll(function () {
     let offset = $(window).scrollTop();
 
     if (offset > 550) {
-        // remove class .bg-trans from #nav-header, add class .bg-dark, and slide down
+        // remove class .bg-trans from #nav-header, and slide down
         $("#nav-header")
             .addClass("bg-dark")
             .removeClass("bg-trans")
