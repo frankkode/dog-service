@@ -76,7 +76,7 @@ $("#email-frank").on("click", function () {
     // DOM QUERY VARIABLES
 
     const resultText = $("#results-text-show");
-    const goButtonClick = $(".search-form__go-button");
+    const goButtonClick = $(".go-button-click");
     const goButton = $("#go");
     const resultSection = $("section");
     const resetButton = $("#reset-button");
@@ -415,4 +415,3 @@ function googleTranslateElementInit() {
         pageLanguage: 'en'
     }, 'google_translate_element');
 }
-//main title
