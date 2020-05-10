@@ -13,9 +13,10 @@ body {
 #home {
   background-color: rgb(255, 236, 212);
   margin-bottom: 0;
+
 }
 
-/*jambotron over color*/
+/* over jambotron color */
 .bg-dark {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
@@ -25,15 +26,6 @@ body {
 }
 
 /*main title*/
-
-.doggy-title-big {
-  font-family: "Dr Sugiyama";
-  font-weight: 700;
-  font-size: 45px;
-  font-style: normal;
-  text-align: center;
-  color: #d36836;
-}
 
 .title {
   position: absolute;
@@ -45,7 +37,6 @@ body {
   text-align: center;
 }
 
-/*calling title*/
 .offset {
   padding: 1em 0 3em;
   text-rendering: optimizeLegibility;
@@ -101,19 +92,14 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(255, 236, 212);
   font-size: 1.5rem;
-  font-family: adobe-handwriting-frank, sans-serif;
-
-  font-weight: 1500px;
-
+  font-weight: bold;
   font-style: normal;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: coral;
-  font-size: 2rem;
-  font-family: adobe-handwriting-frank, sans-serif;
+  color: black;
+  font-size: 1.5rem;
   text-decoration: underline;
-  font-weight: 1500px;
 }
 
 /*nav image*/
@@ -144,6 +130,37 @@ body {
       rgba(246, 135, 3, 1) 0%,
       rgba(251, 0, 0, 1) 100%);
   z-index: -1;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #homepage-header {
+    background-position: 0px -50px;
+  }
+
+  .navbar-brand img {
+    margin-top: -5px;
+    width: 240px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #homepage-header {
+    background-position: 0px -50px;
+    background-size: auto 650px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #homepage-header {
+    background-position: 100px -130px;
+    background-size: auto 1000px;
+  }
 }
 
 #logo-header {
@@ -473,7 +490,7 @@ div.about {
 }
 
 .search-form-input {
-  width: 22rem;
+  width: 21rem;
   height: 3rem;
   margin: 150px auto;
   font-weight: bold;
@@ -969,14 +986,12 @@ footer ul {
   padding-left: 0;
 }
 
-footer #site-map {
-  color: #ccc;
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  padding-top: 30px;
+.socials:hover {
+  color: #509949;
+
 }
 
-footer p.page-title {
+.page-title {
   color: rgb(244, 114, 28);
   font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
@@ -997,8 +1012,8 @@ a:visited {
   color: #fa8d18;
 }
 
-a:hover {
-  color: #6dcff6;
+footer a:hover {
+  color: #509949;
   text-decoration: none;
 }
 
@@ -1020,36 +1035,7 @@ a:active {
   text-align: center;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  #homepage-header {
-    background-position: 0px -50px;
-  }
 
-  .navbar-brand img {
-    margin-top: -5px;
-    width: 240px;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  #homepage-header {
-    background-position: 0px -50px;
-    background-size: auto 650px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #homepage-header {
-    background-position: 100px -130px;
-    background-size: auto 1000px;
-  }
-}
 
 /*mouce scroll button*/
 #mouce-icon a {
@@ -1123,5 +1109,132 @@ a:active {
 
   100% {
     opacity: 0;
+  }
+}
+
+@media (min-width: 579px) {
+  #mouce-icon a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    background-color: transparent;
+    height: 50px;
+    margin-top: 700px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+
+  #mouce-icon a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+}
+
+/*iphone678plus*/
+@media screen and (max-width: 414px) and (min-width: 370px) {
+  #mouce-icon a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    background-color: transparent;
+    height: 50px;
+    margin-top: 690px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+
+  #mouce-icon a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+}
+
+/*iphone x*/
+@media screen and (max-width: 375px) and (min-width: 373px) {
+  #mouce-icon a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    background-color: transparent;
+    height: 50px;
+    margin-top: 770px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+
+  #mouce-icon a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
+  }
+}
+
+/*i pad pro*/
+@media screen and (max-width: 1024px) and (min-width: 1020px) {
+  #mouce-icon a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    background-color: transparent;
+    height: 50px;
+    margin-top: 1020px;
+    margin-left: -15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+
+  #mouce-icon a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: sdb10 2s infinite;
+    animation: sdb10 2s infinite;
+    box-sizing: border-box;
   }
 }

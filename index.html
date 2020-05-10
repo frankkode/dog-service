@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--head-->
 
 <head>
     <!-- meta tags -->
@@ -8,33 +9,30 @@
     <title>doggy hub</title>
     <link rel="icon" href="assets/images/paw.ico" type="image/ico">
     <!--titles fonts-->
-    <link rel="stylesheet" href="https://use.typekit.net/upo7xbg.css">
-    <link rel="stylesheet" href="https://use.typekit.net/bmf8mea.css">
-    <!-- Font Awesome -->
-    <script src="https://use.fontawesome.com/c2152b0b49.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <!--google map css-->
+    <!--google fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Pontano+Sans|Quicksand:300,400,500,700"
-        rel="stylesheet">
-    <!--logo fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Dr Sugiyama' rel='stylesheet'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <!--mailjs-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
         (function () {
             emailjs.init("user_O1o8IMjyMMzoWmrIjKUtv");
         })();
     </script>
-
+    <!--end mailjs-->
 </head>
+<!--end head------------------------------------------->
+<!--start body----------------------------------------->
 
 <body>
+    <!--header----------------------------------------->
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trans" id="nav-header">
             <a class="navbar-brand" href="index.html" target="_self">
@@ -70,9 +68,7 @@
                 </ul>
             </div>
         </nav>
-        <!--end navbar-->
-
-        <!--logo title-->
+        <!--end navbar------------------------------->
 
         <!--jambotron with calling image-->
         <div class="jumbotron jumbotron-fluid position-relative">
@@ -83,17 +79,21 @@
             <div class="h-75 d-flex align-items-center justify-content-center ">
                 <div class="offset">
                     <h1 class="title">
+                        <!--calling titles-->
                         <em>The doggy</em>
                         <b></b>Hub</b>
                     </h1>
                 </div>
+                <!--mail calling image-->
                 <img src="assets/images/dog.png" alt="dog" class="col-sm-10 col-md-8 pr-4 pt-5" id="logo-header">
+                <!--animation mouce -->
                 <div id="mouce-icon">
                     <a href="#services"><span></span></a>
                 </div>
             </div>
 
-        </div> <!-- endjumbotron -->
+        </div>
+        <!-- endjumbotron ----------------------------------->
     </header>
     <!--services-->
     <div class="flex-container" id="services">
@@ -153,10 +153,12 @@
             </div>
         </form>
     </div>
+    <!--hiden part for search results-------------------------------->
     <section id="scrollTo" class="hide-results">
         <div class="all-results all-results-background">
             <div class="all-results-results">
                 <div class="results-display">
+                    <!--google map-->
                     <div id="map"></div>
                 </div>
                 <p class="results-map-instructions"><i class="fa fa-exclamation-triangle"></i> Click on a marker for
@@ -172,15 +174,15 @@
             </div>
         </div>
     </section>
-    <!--end service buttons-->
-    <!--warning modal-->
+    <!--end service buttons------------------------------->
+    <!--warning modal------------------------------------->
     <div class="modal">
         <div class="modal__content ">
             <p class="modal__content-text"></p>
             <span class="modal__content-close">&times;</span>
         </div>
     </div>
-    <!--end end warning modal-->
+    <!--end end warning modal------------------------------>
     <!--most loved dogs section pictures from unsplash free pictures-->
     <section>
         <div class="container-fluid most-loved">
@@ -247,21 +249,42 @@
         <div class="about  container-fluid py-5" id="about">
             <article class="container  col-11 col-sm-10 col-md-8 col-lg-7 col-xl-6" id="why-scorpions">
                 <h1 class="line-below text-about">About Us</h1>
-                <p class="lead text-about">The Sweden &#x1F1F8;&#x1F1EA; Dog Trainer offers exceptional one on one
-                    modern dog
-                    training with an emphasis on proven, ethical and science based teaching methods.
-                    Fully qualified and with years of experience, all of his work is 100% satisfaction guaranteed.
-                    Always done with kindness and reward based, Dean’s work is about empowering owners with knowledge
-                    and skillset
-                    to achieve the great behaviours you want from your dog.
-                    And all done with kind, clear, fun and scientifically based training, making sure training’s a
-                    pleasure for
-                    you both and your dog.
-                    He has worked with dogs from Stockholm to Los Angeles to London and all ages and experience are
-                    catered for
-                    in a safe, realistic environment (outdoors where possible), helping you transfer your new skills
-                    into real
-                    life.</p>
+                <div class="lead text-about">
+                    <p>DOOGY HUB is a Sweden non-profit association that receives, nurtures /
+                        rehabilitates dogs that are threatened by killing due to various reasons, neglected Dogs or
+                        those
+                        Dogs that have no one who can take care of them and find new homes for them.</p>
+
+                    <p><strong>We believe that all animals are entitled to a life and we want to help them as much as
+                            possible.</strong></p>
+
+                    <p>To get information about what it means and what it takes for you to give one of our dogs a new
+                        home;
+                        contact us on our given email,phone or chat.</p>
+
+                    <p>If you are interested in taking care of an animal from us, call us and book the time.</p>
+
+                    <p>We are more than happy to help you who have a Dog you can no longer find new home for, all in
+                        order
+                        to avoid killing a healthy Dog; contact us, we have our own transport.</p>
+
+                    <p>On demand We offer exceptional one on one
+                        modern dog
+                        life style with an emphasis on proven, ethical and science based methods for free.
+                        Fully qualified and with years of experience, all of his work is 100% satisfaction guaranteed.
+                        Always done with kindness and reward based, Our work is about empowering owners with knowledge
+                        and skillset
+                        to achieve the great behaviours you want from your dog.</p>
+                    <p>And all done with kind, clear, fun and scientifically based training, making sure training’s a
+                        pleasure for
+                        you both and your dog.</p>
+
+                    <p>we have worked with dogs from Stockholm to Los Angeles to London and all ages and experience are
+                        catered for
+                        in a safe, realistic environment (outdoors where possible), helping you transfer your new skills
+                        into real
+                        life.</p>
+                </div>
             </article>
         </div>
         <!-- end about us -->
@@ -285,37 +308,35 @@
                             Incredible
                             Strength And Have Very Strong Bite Force. These Powerful Dogs Are Highly Demanding And Can
                             Be Used For
-                            Various Purposes. we can train your DOG like ours.
+                            Various Purposes, surch as guarding brind people, searching, amusements and so on . we can
+                            train your DOG like ours.
                         </p>
                         <p class="text-white"><a
                                 href="https://player.vimeo.com/external/403279710.sd.mp4?s=fde9ea5a4964ba2c190751ea11e70b2673a74382&profile_id=139&oauth2_token_id=57447761"
-                                target="_blank"> Visit our chanel > </a>
+                                target="_blank"> Visit our training chanel > </a>
                         </p>
                     </div>
-                </div><!-- row justify-content-center -->
+                </div><!-- justify-content-center -->
             </article>
-            <!-- end training section -->
-        </div><!-- container -->
+        </div>
     </section>
+    <!-- end training section ----------------------------->
     <hr class="my-4">
-    <!--Section: Contact-->
+    <!-- Contact us-->
     <div class=" container-fluid" id="contact">
-        <!--Section: Content-->
+        <!--Content-->
         <section class="dark-grey-text mb-5">
 
-            <!-- Section heading -->
+            <!--  heading -->
             <h1 class="font-weight-bold line-below   mb-4">Contact Us</h1>
-            <!-- Section description -->
+            <!--  description -->
             <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
                 eum porro a pariatur veniam.</p>
-
             <!-- Grid row -->
             <div class="row">
-
                 <!-- Grid column -->
                 <div class="col-lg-5 mb-lg-0 pb-lg-3 mb-4">
-
                     <!-- Form with header -->
                     <div class="card">
                         <div class="card-body contact-form-style">
@@ -323,8 +344,8 @@
                             <div class="form-header blue accent-1">
                                 <h3 class="mt-2"><i class="fa fa-envelope"></i> Write to us:</h3>
                             </div>
-                            <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
-                            <!-- section Body -->
+                            <p class="dark-grey-text">We are happy to help you</p>
+                            <!--section Body form with input-->
                             <form onsubmit="return sendMail(this);" id="myForm">
                                 <div class="md-form">
                                     <i class="fa fa-user prefix grey-text"></i>
@@ -407,16 +428,15 @@
     <footer class="navbar navbar-default navbar-static-bottom navbar-fixed-bottom">
         <div class="container-fluid py-5 text-light">
             <div class="container">
-                <ul class="row" id="site-map">
+                <ul class="row">
                     <div class="col-sm-4 col-md">
                         <li class="mb-4 pr-4" id="footer-contact">
                             <div class="logo-footer">
                                 <img class="logo-footer" src="assets/images/paw.ico">
                             </div>
                             <div>
-                                <h3>
-                                    <Address>Address</Address>
-                                </h3>
+                                <a>
+                                    <h3 class="page-title mt-2">Address</h3>
                                 </a>
                                 <!--  Google Maps API adress -->
                                 <a href="https://www.google.com/maps/place/961+50+S%C3%A4vast/@65.7604644,21.7364684,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x467f588771810585:0x17f1ca241463f24b!2sBoden+SO!3b1!8m2!3d65.7319877!4d21.6260041!3m4!1s0x467f5eb63fce2365:0xa03450954ed73b0!8m2!3d65.7605255!4d21.754303"
@@ -429,20 +449,20 @@
                     </div>
                     <div class="col-sm-4 col-xl">
                         <li class="submenu mb-4">
-                            <p class="page-title">Contact us</p>
+                            <h3 class="page-title">Contact us</h3>
                             <ul>
-                                <a href="" id="email-frank">
-                                    <i class="fa fa-envelope-o"></i>
-                                </a>
-                                <a href="tel:+46704052680">
-                                    <i class="fa fa-phone"> +46704052680</i>
-                                </a>
+                                <li><a href="" id="email-frank">
+                                        <i class="fa fa-envelope-o"></i>
+                                    </a></li>
+                                <li><a href="tel:+46704052680">
+                                        <i class="fa fa-phone"> +46704052680</i>
+                                    </a></li>
                             </ul>
                         </li>
                     </div>
                     <div class="col-sm-4 col-xl">
                         <li class="submenu mb-4">
-                            <p class="page-title">Facilities</p>
+                            <h3 class="page-title">Facilities</h3>
                             <ul>
                                 <li><a href="http://spcasweden.se/var-verksamhet/" target="_blanc">Dog Deseases</a></li>
                                 <li><a href="http://spcasweden.se/var-verksamhet/" target="_blanc">Dog Research
@@ -453,9 +473,10 @@
                         </li>
 
                     </div>
+                    <!--dog adoption-->
                     <div class="col-sm-4 col-xl">
                         <li class="submenu mb-4">
-                            <p class="page-title">DOG ADOPTION</p>
+                            <h3 class="page-title">DOG ADOPTION</h3>
                             <ul>
                                 <li><a href="http://www.djurensratt.se/adoptera" target="_blanc">Djurensratt</a></li>
                                 <li><a href="http://www.katthemmet.nu/" target="_blanc">Katthemmet</a></li>
@@ -463,9 +484,10 @@
                             </ul>
                         </li>
                     </div>
+                    <!--dog spetion organisation links-->
                     <div class="col-sm-4 col-xl">
                         <li class="submenu mb-4">
-                            <p class="page-title">Dog safety</p>
+                            <h3 class="page-title">Dog safety</h3>
                             <ul>
                                 <li><a href="https://www.neuro.uu.se/education/laboratory-animal-science--lasetuu-/"
                                         target="_blanc">Dog
@@ -481,22 +503,22 @@
                     </div>
                     <div class="col-sm-4 col-xl">
                         <li class="submenu mb-4">
-                            <div class="mt-4">
-                                <h3>Social media</h3>
+                            <div>
+                                <h3 class="page-title">Social media</h3>
                             </div>
                             <div class="social">
                                 <!-- links to  social media -->
                                 <a href="https://www.youtube.com/watch?v=nFrb-C6I6Ps" target="_blanc">
-                                    <i class="fa fa-youtube-play"></i>
+                                    <i class="fa fa-youtube-play socials"></i>
                                 </a>
                                 <a href="https://twitter.com/home" target="_blanc">
-                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-twitter socials"></i>
                                 </a>
                                 <a href="https://www.facebook.com/" target="_blanc">
-                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook socials"></i>
                                 </a>
                                 <a href="https://www.instagram.com/" target="_blanc">
-                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-instagram socials"></i>
                                 </a>
                             </div>
                         </li>
@@ -506,8 +528,9 @@
                         </div>
                     </div>
                 </ul>
-            </div><!-- .container -->
-        </div><!-- .container-fluid -->
+            </div>
+        </div>
+        <!--dinamic copy rights-->
         <div class="text-center " id="copyright">
             <!-- dinamic copy right-->
             <p class="text-center ">Copyright © 2020 -
@@ -519,7 +542,7 @@
         </div>
     </footer>
 
-    <!-- Optional JavaScript -->
+    <!--  JavaScripts -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
@@ -541,6 +564,8 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--google translate-->
     <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/c2152b0b49.js"></script>
     <!--tidio chart-->
     <script src="//code.tidio.co/crhf0u4tbqw73dejadgbatntpefld23l.js" async></script>
 </body>
