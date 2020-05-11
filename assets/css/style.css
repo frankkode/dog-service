@@ -9,6 +9,7 @@ body {
   font-weight: 400;
 }
 
+/*head main page css*/
 /*top title*/
 #home {
   background-color: rgb(255, 236, 212);
@@ -73,7 +74,7 @@ body {
   }
 }
 
-/*line bellow titles*/
+/*line bellow section titles*/
 .line-below::after {
   border-bottom: 10px solid rgba(226, 68, 11, 0.899);
   content: "";
@@ -174,6 +175,7 @@ button:active {
   box-shadow: none;
 }
 
+/* body css*/
 h1,
 h2 {
   font-family: "atrament-web", Impact, Tahoma, Helvetica, Arial, sans-serif;
@@ -197,143 +199,6 @@ h5 {
   font-size: 1.1rem;
 }
 
-/* animate image on loved dogs*/
-
-#quicklinks img {
-  margin: 10px auto;
-  transition: all 0.7s ease;
-}
-
-#quicklinks img:hover {
-  margin: 0px auto;
-}
-
-/*most loved section*/
-.most-loved {
-  background-color: #fafafa;
-  z-index: 1;
-  border-width: 10px;
-  border-top-style: ridge;
-  border-bottom-style: ridge;
-}
-
-/* titles*/
-.most-loved-title {
-  font-family: "Dr Sugiyama";
-  font-weight: 800;
-  font-size: 45px;
-  color: rgb(221, 115, 34);
-}
-
-/*about us*/
-div.about {
-  background-color: #ffffff;
-  background-size: cover;
-  color: #0e091f;
-}
-
-.text-about {
-  color: #000000;
-}
-
-/*photo loved dogs*/
-.inline-photo {
-  border-radius: 0.25em;
-  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
-  margin: 2em auto;
-  transform: rotateZ(-2deg);
-  max-width: 600px;
-  width: 90%;
-}
-
-/*training*/
-#wetrain-video {
-  background-color: #ffffff;
-}
-
-.video-training {
-  width: 560px;
-  height: 315px;
-}
-
-/*contact us*/
-.website-button {
-  height: 3rem;
-  width: 6rem;
-  border: none;
-  border-radius: 0.3rem;
-  background: rgb(246, 135, 3);
-
-  color: #0e0920;
-  -webkit-transition: color, 0.3s, background-color, 0.3s,
-    cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: color, 0.3s, background-color, 0.3s,
-    cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.website-button:hover,
-.website-button:focus {
-  background-color: #0e0920;
-  color: #d56d05;
-}
-
-#contact {
-  background: url("../images/dog-c.jpg") no-repeat center;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-}
-
-.contact-form-style {
-  background: rgb(246, 135, 3);
-  background: linear-gradient(266deg,
-      rgba(246, 135, 3, 1) 48%,
-      rgba(251, 0, 0, 1) 100%);
-  border: 2px solid rgb(255, 219, 219);
-}
-
-.contact-button {
-  height: 3rem;
-  width: 6rem;
-  border: 3px solid rgb(255, 120, 47);
-  border-radius: 0.3rem;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #d56d05;
-  color: #0e0920;
-}
-
-.contact-button:hover,
-.contact-button:focus {
-  background-color: #0e0920;
-  color: #d56d05;
-}
-
-/*address map*/
-#map {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
-
-.map-container-section {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-container-section iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.map-container-section {
-  border: 3px solid rgb(0, 187, 255);
-}
 
 /*forms container*/
 .flex-container {
@@ -742,6 +607,7 @@ a {
   align-items: center;
 }
 
+/*show all search result mediaqueries*/
 @media (min-width: 767px) {
   .results-display {
     width: 50rem;
@@ -821,6 +687,7 @@ a {
   }
 }
 
+/*reset button after result*/
 .all-results-reset-button {
   width: 6rem;
   height: 6rem;
@@ -866,13 +733,14 @@ a {
   cursor: pointer;
 }
 
+/*reset button click after result*/
 .results-reset-click {
   border: 2px solid #e9a846;
   color: #fdfdfd;
   background-color: #221a1e;
 }
 
-/*modal for warning*/
+/*modal for warning if a user did not fill up the form correctly*/
 .modal {
   display: none;
   position: fixed;
@@ -958,6 +826,138 @@ a {
   z-index: 2;
 }
 
+/*most loved dogs section*/
+/* give estetic and animate image on loved dogs*/
+
+#quicklinks img {
+  margin: 10px auto;
+  transition: all 0.7s ease;
+}
+
+#quicklinks img:hover {
+  margin: 0px auto;
+}
+
+.most-loved {
+  background-color: #fafafa;
+  z-index: 1;
+  border-width: 10px;
+  border-top-style: ridge;
+  border-bottom-style: ridge;
+}
+
+/*photo loved dogs*/
+.inline-photo {
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  transform: rotateZ(-2deg);
+  max-width: 600px;
+  width: 90%;
+}
+
+/*about us*/
+div.about {
+  background-color: #ffffff;
+  background-size: cover;
+  color: #0e091f;
+}
+
+.text-about {
+  color: #000000;
+}
+
+/*training video*/
+#wetrain-video {
+  background-color: #ffffff;
+}
+
+.video-training {
+  width: 560px;
+  height: 315px;
+}
+
+/*contact us*/
+.services-results-button {
+  height: 3rem;
+  width: 6rem;
+  border: none;
+  border-radius: 0.3rem;
+  background: rgb(246, 135, 3);
+
+  color: #0e0920;
+  -webkit-transition: color, 0.3s, background-color, 0.3s,
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: color, 0.3s, background-color, 0.3s,
+    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.services-results-button:hover,
+.services-results-button:focus {
+  background-color: #0e0920;
+  color: #d56d05;
+}
+
+/* background image on contact section*/
+#contact {
+  background: url("../images/dog-c.jpg") no-repeat center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+}
+
+.contact-form-style {
+  background: rgb(246, 135, 3);
+  background: linear-gradient(266deg,
+      rgba(246, 135, 3, 1) 48%,
+      rgba(251, 0, 0, 1) 100%);
+  border: 2px solid rgb(255, 219, 219);
+}
+
+.contact-button {
+  height: 3rem;
+  width: 6rem;
+  border: 3px solid rgb(255, 120, 47);
+  border-radius: 0.3rem;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #d56d05;
+  color: #0e0920;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  background-color: #0e0920;
+  color: #d56d05;
+}
+
+/*hidden map*/
+#map {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.map-container-section {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+/* map of our location*/
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.map-container-section {
+  border: 3px solid rgb(0, 187, 255);
+}
+
 /*footer*/
 
 footer {
@@ -967,12 +967,6 @@ footer {
 
 footer a:hover {
   color: rgb(238, 137, 90);
-}
-
-footer i.fa {
-  color: rgb(246, 137, 20);
-  font-size: 1.2rem;
-  padding: 5px 10px 5px 0;
 }
 
 .logo-footer {
@@ -1113,6 +1107,7 @@ a:active {
   }
 }
 
+/*animation mouce on small screen*/
 @media (min-width: 579px) {
   #mouce-icon a span {
     position: absolute;
@@ -1144,7 +1139,7 @@ a:active {
   }
 }
 
-/*iphone678plus*/
+/*animation mouce on iphone678plus*/
 @media screen and (max-width: 414px) and (min-width: 370px) {
   #mouce-icon a span {
     position: absolute;
@@ -1176,7 +1171,7 @@ a:active {
   }
 }
 
-/* iphone 6,7,8,x */
+/* animation mouce on iphone 6,7,8,x */
 @media screen and (max-width: 375px) and (min-width: 373px) {
   #mouce-icon a span {
     position: absolute;
@@ -1208,7 +1203,7 @@ a:active {
   }
 }
 
-/*i pad pro*/
+/* animation mouce on i pad pro*/
 @media screen and (max-width: 1024px) and (min-width: 1020px) {
   #mouce-icon a span {
     position: absolute;
@@ -1239,3 +1234,5 @@ a:active {
     box-sizing: border-box;
   }
 }
+
+/*end css*/

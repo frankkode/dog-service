@@ -219,15 +219,15 @@ $("#email-frank").on("click", function () {
                             // write to document below HTML on Marker click
 
                             document.getElementById("text").innerHTML = `<h2>${info.name}</h2>
-                              <h3>Address</h3>
-                              <p>${info.address}</p>
-                              <h3>Website</h3>
-                              <p><a href="${info.website}" target="_blank"><button class="website-button">Click Me</button></a></p>
-                              <h3>Phone</h3>
-                              <p>${info.number}</p>
-                              <h3>Overall Rating</h3>
-                              <p>${info.rating}</p>
-                              <h3>Reviews</h3>`;
+                                <h3>Address</h3>
+                                <p>${info.address}</p>
+                                <h3>Website</h3>
+                                <p><a href="${info.website}" target="_blank"><button class="services-results-button">Click Me</button></a></p>
+                                <h3>Phone</h3>
+                                <p>${info.number}</p>
+                                <h3>Overall Rating</h3>
+                                <p>${info.rating}</p>
+                                <h3>Reviews</h3>`;
 
                             let eachReview;
 
