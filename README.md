@@ -1,8 +1,8 @@
 # DOG SERVICES
 
-[The Dog Services](https://frankkode.github.io/dog-service/)
+[The Doggy Services](https://frankkode.github.io/dog-service/)
 
-The dog services is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden
+The doggy services is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden
 
 In order to help them achieve this, the users are able to add location, type of service he want and search. The user will be able to locate all the nearby "dog services" around their area.
 
@@ -204,7 +204,14 @@ The following have been tested from a user’s perspective to ensure the web app
 2. Testing the site across different devices in real world scenarios. Mobiles, Tablets, Laptops, and Desktops.
 3. Giving the application to third party users to get feedback, and see if they could "break" the application.
 4. W3C code validator to pass HTML, CSS and JS.
-5. I tested the application across multiple desktop browsers including Firefox, Chrome, Opera and Safari and all is well with these browsers.
+
+HTML TEST: ![Alt](assets/images/html.png "test")
+
+CSS TEST: ![Alt](assets/images/css.png "test")
+
+JAVASCRIPT Test: ![Alt](assets/images/javascript.png "test")
+
+5.I tested the application across multiple desktop browsers including Firefox, Chrome, Opera and Safari and all is well with these browsers.
 
 Test: ![Alt](assets/images/console.png "test")
 

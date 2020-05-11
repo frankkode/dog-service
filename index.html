@@ -4,45 +4,44 @@
 
 <head>
     <!-- meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>doggy hub</title>
-    <link rel="icon" href="assets/images/paw.ico" type="image/ico">
+    <link rel="icon" href="assets/images/paw.ico" type="image/ico" />
     <!--titles fonts-->
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
     <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <!--google fonts-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <!--mailjs-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script>
         (function () {
             emailjs.init("user_O1o8IMjyMMzoWmrIjKUtv");
         })();
     </script>
     <!--end mailjs-->
 </head>
-<!--end head------------------------------------------->
-<!--start body----------------------------------------->
+<!--end head-->
+<!--start body-->
 
 <body>
-    <!--header----------------------------------------->
+    <!--header-->
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trans" id="nav-header">
             <a class="navbar-brand" href="index.html" target="_self">
                 <!--logo-->
-                <img src="assets/images/dog.png" alt="Logo">
+                <img src="assets/images/dog.png" alt="Logo" />
             </a>
             <!--small screen toggle-->
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation ">
-                <span class="navbar-toggler-icon "></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <!--navlinks-->
             <div class="collapse navbar-collapse mr-1" id="navbarSupportedContent">
@@ -68,49 +67,45 @@
                 </ul>
             </div>
         </nav>
-        <!--end navbar------------------------------->
+        <!--end navbar-->
 
         <!--jambotron with calling image-->
         <div class="jumbotron jumbotron-fluid position-relative">
-            <div class="container-fluid position-fixed " id="homepage-header">
-            </div>
-            <div class="container-fluid h-100 position-absolute ">
-            </div>
-            <div class="h-75 d-flex align-items-center justify-content-center ">
+            <div class="container-fluid position-fixed" id="homepage-header"></div>
+            <div class="container-fluid h-100 position-absolute"></div>
+            <div class="h-75 d-flex align-items-center justify-content-center">
                 <div class="offset">
                     <h1 class="title">
                         <!--calling titles-->
                         <em>The doggy</em>
-                        <b></b>Hub</b>
+                        <b>Hub</b>
                     </h1>
                 </div>
                 <!--mail calling image-->
-                <img src="assets/images/dog.png" alt="dog" class="col-sm-10 col-md-8 pr-4 pt-5" id="logo-header">
+                <img src="assets/images/dog.png" alt="dog" class="col-sm-10 col-md-8 pr-4 pt-5" id="logo-header" />
                 <!--animation mouce -->
                 <div id="mouce-icon">
                     <a href="#services"><span></span></a>
                 </div>
             </div>
-
         </div>
-        <!-- endjumbotron ----------------------------------->
+        <!-- endjumbotron -->
     </header>
     <!--services-->
     <div class="flex-container" id="services">
-
-        <form class="search-form ">
-            <h1 class=" text-center">Find dog services! </h1>
+        <form class="search-form">
+            <h1 class="text-center">Find dog services!</h1>
             <!--search form-->
             <div>
-                <input id="user-input" class="search-form-input placeholder-style " type="text"
-                    placeholder="Add location...">
+                <input id="user-input" class="search-form-input placeholder-style" type="text"
+                    placeholder="Add location..." />
             </div>
             <!--service buttons-->
             <div class="search-form-search-buttons search-form-search-buttons-background">
                 <div>
                     <button data-name="walk-button" type="button" value="dog walker" class="search-form-button">
                         <i class="fa fa-paw search-form-icon-style" aria-hidden="true"></i>
-                        <span class="search-form-button-text ">D-Walk</span>
+                        <span class="search-form-button-text">D-Walk</span>
                     </button>
                 </div>
                 <div>
@@ -148,12 +143,14 @@
                 </div>
             </div>
             <div class="search-form__go">
-                <a href='#scrollTo'><button id="go" type="button" class="go-button-click searchform-go-button"><i
-                            class="fa fa-search"></i></button></a>
+                <a href="#scrollTo">
+                    <button id="go" type="button" class="go-button-click searchform-go-button"><i
+                            class="fa fa-search"></i></button>
+                </a>
             </div>
         </form>
     </div>
-    <!--hiden part for search results-------------------------------->
+    <!--hiden part for search results-->
     <section id="scrollTo" class="hide-results">
         <div class="all-results all-results-background">
             <div class="all-results-results">
@@ -162,40 +159,39 @@
                     <div id="map"></div>
                 </div>
                 <p class="results-map-instructions"><i class="fa fa-exclamation-triangle"></i> Click on a marker for
-                    more
-                    info.</p>
-                <div id="results-text-show" class="all-resultstext ">
+                    more info.</p>
+                <div id="results-text-show" class="all-resultstext">
                     <div id="text" class="resultstext mr-1"></div>
                 </div>
                 <div class="all-results-reset">
-                    <button id="reset-button" class=" all-results-reset-button" type="button"
+                    <button id="reset-button" class="all-results-reset-button" type="button"
                         value="reset">Close!</button>
                 </div>
             </div>
         </div>
     </section>
-    <!--end service buttons------------------------------->
-    <!--warning modal------------------------------------->
+    <!--end service buttons-->
+    <!--warning modal-->
     <div class="modal">
-        <div class="modal__content ">
+        <div class="modal__content">
             <p class="modal__content-text"></p>
             <span class="modal__content-close">&times;</span>
         </div>
     </div>
-    <!--end end warning modal------------------------------>
+    <!--end end warning modal-->
     <!--most loved dogs section pictures from unsplash free pictures-->
     <section>
         <div class="container-fluid most-loved">
-            <h1 class="  line-below">Most loved Dogs</h1>
+            <h2 class="line-below">Most loved Dogs</h2>
             <article class="container" id="quicklinks">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row justify-content-center">
                             <div class="col-6 col-md-4 p-4 px-lg-5">
                                 <a href="#">
-                                    <img class="w-100 img-thumbnail inline-photo "
+                                    <img class="w-100 img-thumbnail inline-photo"
                                         src="https://images.unsplash.com/photo-1541365110400-283780c7269d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                                        alt="Photo by Charles Deluvio on Unsplash">
+                                        alt="Photo by Charles Deluvio on Unsplash" />
                                     <h4 class="text-center pt-3">Labrador Retriever</h4>
                                 </a>
                             </div>
@@ -203,7 +199,7 @@
                                 <a href="#">
                                     <img class="w-100 img-thumbnail inline-photo"
                                         src="https://images.unsplash.com/photo-1554692936-82776f9406db?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                                        alt="Photo by Alvan Nee on Unsplash">
+                                        alt="Photo by Alvan Nee on Unsplash" />
                                     <h4 class="text-center pt-3">German Shepherd</h4>
                                 </a>
                             </div>
@@ -211,7 +207,7 @@
                                 <a href="#">
                                     <img class="w-100 img-thumbnail inline-photo"
                                         src="https://images.unsplash.com/photo-1559119915-3e24a10935a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                                        alt="Photo by Laura Dewilde on Unsplash">
+                                        alt="Photo by Laura Dewilde on Unsplash" />
                                     <h4 class="text-center pt-3">Golden Retriever</h4>
                                 </a>
                             </div>
@@ -219,15 +215,15 @@
                                 <a href="#">
                                     <img class="w-100 img-thumbnail inline-photo"
                                         src="https://images.unsplash.com/photo-1563889958768-0fa816b019c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
-                                        alt="Photo by Ilya Shishikhin on Unsplash">
+                                        alt="Photo by Ilya Shishikhin on Unsplash" />
                                     <h4 class="text-center pt-3">Beagle</h4>
                                 </a>
                             </div>
                             <div class="col-6 col-md-4 p-4 px-lg-5">
                                 <a href="#">
-                                    <img class="w-100 img-thumbnail  inline-photo border border-secondary"
+                                    <img class="w-100 img-thumbnail inline-photo border border-secondary"
                                         src="https://images.unsplash.com/photo-1504430225224-21a649ac91bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
-                                        alt="Photo by Josef Reckziegel on Unsplash">
+                                        alt="Photo by Josef Reckziegel on Unsplash" />
                                     <h4 class="text-center pt-3">Bulldog</h4>
                                 </a>
                             </div>
@@ -235,7 +231,7 @@
                                 <a href="#">
                                     <img class="w-100 inline-photo img-thumbnail"
                                         src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"
-                                        alt="Photo by Victor Grabarczyk on Unsplash">
+                                        alt="Photo by Victor Grabarczyk on Unsplash" />
                                     <h4 class="text-center pt-3">Yorkshire Terrier</h4>
                                 </a>
                             </div>
@@ -246,93 +242,94 @@
             <!--end most loved dogs section-->
         </div>
         <!-- about us -->
-        <div class="about  container-fluid py-5" id="about">
-            <article class="container  col-11 col-sm-10 col-md-8 col-lg-7 col-xl-6" id="why-scorpions">
-                <h1 class="line-below text-about">About Us</h1>
+        <div class="about container-fluid py-5" id="about">
+            <article class="container col-11 col-sm-10 col-md-8 col-lg-7 col-xl-6" id="why-scorpions">
+                <h2 class="line-below text-about">About Us</h2>
                 <div class="lead text-about">
-                    <p>DOOGY HUB is a Sweden non-profit association that receives, nurtures /
-                        rehabilitates dogs that are threatened by killing due to various reasons, neglected Dogs or
-                        those
-                        Dogs that have no one who can take care of them and find new homes for them.</p>
+                    <p>
+                        DOOGY HUB is a Sweden non-profit association that receives, nurtures / rehabilitates dogs that
+                        are threatened by killing due to various reasons, neglected Dogs or those Dogs that have no one
+                        who can take care of
+                        them and find new homes for them.
+                    </p>
 
                     <p><strong>We believe that all animals are entitled to a life and we want to help them as much as
                             possible.</strong></p>
 
-                    <p>To get information about what it means and what it takes for you to give one of our dogs a new
-                        home;
-                        contact us on our given email,phone or chat.</p>
-
-                    <p>If you are interested in taking care of an animal from us, call us and book the time.</p>
+                    <p>If you are interested in taking care of a Dog from us, call us and book the time.</p>
 
                     <p>We are more than happy to help you who have a Dog you can no longer find new home for, all in
-                        order
-                        to avoid killing a healthy Dog; contact us, we have our own transport.</p>
+                        order to avoid killing a healthy Dog, contact us, we have our own transport.</p>
 
-                    <p>On demand We offer exceptional one on one
-                        modern dog
-                        life style with an emphasis on proven, ethical and science based methods for free.
-                        Fully qualified and with years of experience, all of his work is 100% satisfaction guaranteed.
-                        Always done with kindness and reward based, Our work is about empowering owners with knowledge
-                        and skillset
-                        to achieve the great behaviours you want from your dog.</p>
+                    <p>
+                        On demand We offer exceptional one on one modern dog life style with an emphasis on proven,
+                        ethical and science based methods for free. Fully qualified and with years of experience, all of
+                        his work is 100%
+                        satisfaction guaranteed. Always done with kindness and reward based, Our work is about
+                        empowering owners with knowledge and skillset to achieve the great behaviours you want from your
+                        dog.
+                    </p>
                     <p>And all done with kind, clear, fun and scientifically based training, making sure training’s a
-                        pleasure for
-                        you both and your dog.</p>
+                        pleasure for you both and your dog.</p>
 
-                    <p>we have worked with dogs from Stockholm to Los Angeles to London and all ages and experience are
-                        catered for
-                        in a safe, realistic environment (outdoors where possible), helping you transfer your new skills
-                        into real
-                        life.</p>
+                    <p>
+                        we have worked with dogs from Stockholm to Los Angeles to London and all ages and experience are
+                        catered for in a safe, realistic environment (outdoors where possible), helping you transfer
+                        your new skills into
+                        real life.
+                    </p>
                 </div>
             </article>
         </div>
         <!-- end about us -->
-        <hr class="my-4">
+        <hr class="my-4" />
         <!--trainings section video from pexel free video-->
         <div class="container-fluid py-5" id="training">
             <article class="container py-3" id="wetrain-video">
                 <div class="row justify-content-center">
                     <div class="p-3 col-md-10 col-lg-8 col-xl-6 mb-3">
                         <div class="d-inline-block embed-responsive embed-responsive-16by9 animated">
-                            <iframe width="560" height="315"
-                                src="https://player.vimeo.com/external/403279710.sd.mp4?s=fde9ea5a4964ba2c190751ea11e70b2673a74382&profile_id=139&oauth2_token_id=57447761"
+                            <iframe class="video-training"
+                                src="
+                                https://player.vimeo.com/external/403279710.sd.mp4?s=fde9ea5a4964ba2c190751ea11e70b2673a74382&profile_id=139&oauth2_token_id=57447761"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-md-10 col-lg-8 col-xl-5 ml-xl-2 mt-xl-1">
-                        <h1 class="text-black line-below">Train with us.</h1>
-                        <p class="lead text-black">There Are Several Types Of Dogs That Are Very Powerful, Possess
-                            Incredible
-                            Strength And Have Very Strong Bite Force. These Powerful Dogs Are Highly Demanding And Can
-                            Be Used For
-                            Various Purposes, surch as guarding brind people, searching, amusements and so on . we can
-                            train your DOG like ours.
+                        <h2 class="text-black line-below">Train with us.</h2>
+                        <p class="lead text-black">
+                            There Are Several Types Of Dogs That Are Very Powerful, Possess Incredible Strength And Have
+                            Very Strong Bite Force. These Powerful Dogs Are Highly Demanding And Can Be Used For Various
+                            Purposes, surch as
+                            guide people with different disabilities, police searching, amusements and so on . we can
+                            train
+                            your DOG like ours.
                         </p>
-                        <p class="text-white"><a
-                                href="https://player.vimeo.com/external/403279710.sd.mp4?s=fde9ea5a4964ba2c190751ea11e70b2673a74382&profile_id=139&oauth2_token_id=57447761"
+                        <p class="text-white">
+                            <a href="https://player.vimeo.com/external/403279710.sd.mp4?s=fde9ea5a4964ba2c190751ea11e70b2673a74382&profile_id=139&oauth2_token_id=57447761"
                                 target="_blank"> Visit our training chanel > </a>
                         </p>
                     </div>
-                </div><!-- justify-content-center -->
+                </div>
+                <!-- justify-content-center -->
             </article>
         </div>
     </section>
-    <!-- end training section ----------------------------->
-    <hr class="my-4">
+    <!-- end training section -->
+    <hr class="my-4" />
     <!-- Contact us-->
-    <div class=" container-fluid" id="contact">
+    <div class="container-fluid" id="contact">
         <!--Content-->
         <section class="dark-grey-text mb-5">
-
             <!--  heading -->
-            <h1 class="font-weight-bold line-below   mb-4">Contact Us</h1>
+            <h2 class="font-weight-bold line-below mb-4">Contact Us</h2>
             <!--  description -->
-            <p class="text-center w-responsive mx-auto pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
-                eum porro a pariatur veniam.</p>
+            <p class="text-center w-responsive mx-auto pb-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident
+                voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            </p>
             <!-- Grid row -->
             <div class="row">
                 <!-- Grid column -->
@@ -349,24 +346,28 @@
                             <form onsubmit="return sendMail(this);" id="myForm">
                                 <div class="md-form">
                                     <i class="fa fa-user prefix grey-text"></i>
-                                    <input type="text" name="name" class="form-control" placeholder="Name">
+                                    <input type="text" name="name" class="form-control" id="form-name" required
+                                        minlength="2" maxlength="40" placeholder="Name" />
                                     <label for="form-name"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-envelope prefix grey-text"></i>
-                                    <input type="text" name="emailaddress" class="form-control" placeholder="Email">
+                                    <input type="email" name="emailaddress" class="form-control" id="form-email"
+                                        placeholder="Email" />
                                     <label for="form-email"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-tag prefix grey-text"></i>
-                                    <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                    <input type="text" name="subject" class="form-control" id="form-Subject" required
+                                        placeholder="Subject" />
                                     <label for="form-Subject"></label>
                                 </div>
                                 <div class="md-form">
                                     <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                    <textarea type="text" name="servicesummary" class="form-control md-textarea"
-                                        rows="3" placeholder="Message"></textarea>
-                                    <label for="form-text"></label>
+                                    <textarea name="servicesummary" class="form-control md-textarea" rows="3"
+                                        id="form-content" required minlength="6" maxlength="1000"
+                                        placeholder="Message"></textarea>
+                                    <label for="form-content"></label>
                                 </div>
                                 <div class="text-center">
                                     <button class="contact-button" type="submit">Submit</button>
@@ -375,25 +376,23 @@
                         </div>
                     </div>
                     <!-- Form with header -->
-
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
                 <div class="col-lg-7">
-
                     <!--Google map office adress-->
                     <div id="map-container-section" class="z-depth-1-half map-container-section mb-4 img-thumbnail"
-                        style="height: 400px">
+                        style="height: 400px;">
                         <iframe src="https://maps.google.com/maps?q=Boden&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                            frameborder="0" style="border: 0;" allowfullscreen></iframe>
                     </div>
                     <!-- Buttons-->
                     <div class="row text-center">
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"
                                 href="https://www.google.com/maps/place/961+50+S%C3%A4vast/@65.7604644,21.7364684,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x467f588771810585:0x17f1ca241463f24b!2sBoden+SO!3b1!8m2!3d65.7319877!4d21.6260041!3m4!1s0x467f5eb63fce2365:0xa03450954ed73b0!8m2!3d65.7605255!4d21.754303"
-                                target="_blanc">
+                                target="blanc">
                                 <i class="fa fa-map-marker"></i>
                             </a>
                             <p>Boden, 96148</p>
@@ -407,14 +406,13 @@
                             <p class="mb-md-0">Mon - Fri, 8:00-22:00</p>
                         </div>
                         <div class="col-md-4">
-                            <a href="" id="email-frank" class="btn-floating blue accent-1">
+                            <a href="/" id="email-frank" class="btn-floating blue accent-1">
                                 <i class="fa fa-envelope"></i>
                             </a>
                             <p>frankmasabo55@gmail.com</p>
                             <p class="mb-0">masasimpafra@gmail.com</p>
                         </div>
                     </div>
-
                 </div>
                 <!-- Grid column -->
             </div>
@@ -423,16 +421,15 @@
         <!--Section: Content-->
     </div>
     <!--end contact section-->
-
     <!--footer section-->
     <footer class="navbar navbar-default navbar-static-bottom navbar-fixed-bottom">
         <div class="container-fluid py-5 text-light">
             <div class="container">
-                <ul class="row">
+                <div class="row">
                     <div class="col-sm-4 col-md">
-                        <li class="mb-4 pr-4" id="footer-contact">
+                        <div class="mb-4 pr-4" id="footer-contact">
                             <div class="logo-footer">
-                                <img class="logo-footer" src="assets/images/paw.ico">
+                                <img class="logo-footer" src="assets/images/paw.ico" alt="logo-footer" />
                             </div>
                             <div>
                                 <a>
@@ -440,103 +437,102 @@
                                 </a>
                                 <!--  Google Maps API adress -->
                                 <a href="https://www.google.com/maps/place/961+50+S%C3%A4vast/@65.7604644,21.7364684,14z/data=!3m1!4b1!4m13!1m7!3m6!1s0x467f588771810585:0x17f1ca241463f24b!2sBoden+SO!3b1!8m2!3d65.7319877!4d21.6260041!3m4!1s0x467f5eb63fce2365:0xa03450954ed73b0!8m2!3d65.7605255!4d21.754303"
-                                    target="_blanc">
+                                    target="blanc">
                                     <p>Sävast, Boden, Sweden</p>
                                 </a>
-
                             </div>
-                        </li>
+                        </div>
                     </div>
                     <div class="col-sm-4 col-xl">
-                        <li class="submenu mb-4">
+                        <div class="submenu mb-4">
                             <h3 class="page-title">Contact us</h3>
                             <ul>
-                                <li><a href="" id="email-frank">
+                                <li>
+                                    <a href="/" id="email-frank">
                                         <i class="fa fa-envelope-o"></i>
-                                    </a></li>
-                                <li><a href="tel:+46704052680">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+46704052680">
                                         <i class="fa fa-phone"> +46704052680</i>
-                                    </a></li>
+                                    </a>
+                                </li>
                             </ul>
-                        </li>
+                        </div>
                     </div>
                     <div class="col-sm-4 col-xl">
-                        <li class="submenu mb-4">
+                        <div class="submenu mb-4">
                             <h3 class="page-title">Facilities</h3>
                             <ul>
-                                <li><a href="http://spcasweden.se/var-verksamhet/" target="_blanc">Dog Deseases</a></li>
-                                <li><a href="http://spcasweden.se/var-verksamhet/" target="_blanc">Dog Research
-                                        Lab</a>
+                                <li><a href="http://spcasweden.se/var-verksamhet/" target="blanc">Dog Deseases</a></li>
+                                <li><a href="http://spcasweden.se/var-verksamhet/" target="blanc">Dog Research Lab</a>
                                 </li>
-                                <li><a href="http://spcasweden.se/var-verksamhet/" target="_blanc">Dog Rights</a></li>
+                                <li><a href="http://spcasweden.se/var-verksamhet/" target="blanc">Dog Rights</a></li>
                             </ul>
-                        </li>
-
+                        </div>
                     </div>
                     <!--dog adoption-->
                     <div class="col-sm-4 col-xl">
-                        <li class="submenu mb-4">
+                        <div class="submenu mb-4">
                             <h3 class="page-title">DOG ADOPTION</h3>
                             <ul>
-                                <li><a href="http://www.djurensratt.se/adoptera" target="_blanc">Djurensratt</a></li>
-                                <li><a href="http://www.katthemmet.nu/" target="_blanc">Katthemmet</a></li>
-                                <li><a href="http://www.djurskyddet.nu/bohuslan" target="_blanc">Djurskyddet</a></li>
+                                <li><a href="http://www.djurensratt.se/adoptera" target="blanc">Djurensratt</a></li>
+                                <li><a href="http://www.katthemmet.nu/" target="blanc">Katthemmet</a></li>
+                                <li><a href="http://www.djurskyddet.nu/bohuslan" target="blanc">Djurskyddet</a></li>
                             </ul>
-                        </li>
+                        </div>
                     </div>
                     <!--dog spetion organisation links-->
                     <div class="col-sm-4 col-xl">
-                        <li class="submenu mb-4">
+                        <div class="submenu mb-4">
                             <h3 class="page-title">Dog safety</h3>
                             <ul>
                                 <li><a href="https://www.neuro.uu.se/education/laboratory-animal-science--lasetuu-/"
-                                        target="_blanc">Dog
-                                        Trainings</a></li>
+                                        target="blanc">Dog Trainings</a></li>
                                 <li><a href="https://www.neuro.uu.se/education/laboratory-animal-science--lasetuu-/"
-                                        target="_blanc">Dog
-                                        health</a></li>
+                                        target="blanc">Dog health</a></li>
                                 <li><a href="https://www.neuro.uu.se/education/laboratory-animal-science--lasetuu-/"
-                                        target="_blanc">Dog
-                                        behevious</a></li>
+                                        target="blanc">Dog behevious</a></li>
                             </ul>
-                        </li>
+                        </div>
                     </div>
                     <div class="col-sm-4 col-xl">
-                        <li class="submenu mb-4">
+                        <div class="submenu mb-4">
                             <div>
                                 <h3 class="page-title">Social media</h3>
                             </div>
                             <div class="social">
                                 <!-- links to  social media -->
-                                <a href="https://www.youtube.com/watch?v=nFrb-C6I6Ps" target="_blanc">
+                                <a href="https://www.youtube.com/watch?v=nFrb-C6I6Ps" target="blanc">
                                     <i class="fa fa-youtube-play socials"></i>
                                 </a>
-                                <a href="https://twitter.com/home" target="_blanc">
+                                <a href="https://twitter.com/home" target="blanc">
                                     <i class="fa fa-twitter socials"></i>
                                 </a>
-                                <a href="https://www.facebook.com/" target="_blanc">
+                                <a href="https://www.facebook.com/" target="blanc">
                                     <i class="fa fa-facebook socials"></i>
                                 </a>
-                                <a href="https://www.instagram.com/" target="_blanc">
+                                <a href="https://www.instagram.com/" target="blanc">
                                     <i class="fa fa-instagram socials"></i>
                                 </a>
                             </div>
-                        </li>
+                        </div>
                         <!--google translate-->
                         <div id="stranslate">
                             <div id="google_translate_element"></div>
                         </div>
                     </div>
-                </ul>
+                </div>
             </div>
         </div>
         <!--dinamic copy rights-->
-        <div class="text-center " id="copyright">
+        <div class="text-center" id="copyright">
             <!-- dinamic copy right-->
-            <p class="text-center ">Copyright © 2020 -
+            <p class="text-center">
+                Copyright © 2020 -
                 <script>
-                    var CurrentYear = new Date().getFullYear()
-                    document.write(CurrentYear)
+                    var CurrentYear = new Date().getFullYear();
+                    document.write(CurrentYear);
                 </script>
             </p>
         </div>
@@ -558,7 +554,6 @@
     </script>
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
-
     <!-- Sends emails on submit button using the contact form -->
     <script src="assets/js/sendEmail.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -567,7 +562,7 @@
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/c2152b0b49.js"></script>
     <!--tidio chart-->
-    <script src="//code.tidio.co/crhf0u4tbqw73dejadgbatntpefld23l.js" async></script>
+    <script src="//code.tidio.co/6l8kq8yjqcvixkls3xxqzkecwj785jkk.js" async></script>
 </body>
 
 </html>

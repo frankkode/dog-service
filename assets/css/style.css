@@ -13,7 +13,6 @@ body {
 #home {
   background-color: rgb(255, 236, 212);
   margin-bottom: 0;
-
 }
 
 /* over jambotron color */
@@ -250,6 +249,11 @@ div.about {
 /*training*/
 #wetrain-video {
   background-color: #ffffff;
+}
+
+.video-training {
+  width: 560px;
+  height: 315px;
 }
 
 /*contact us*/
@@ -699,7 +703,7 @@ a {
 
 /*show all search result*/
 .all-results-results {
-  position: flex;
+  position: relative;
   overflow: visible;
   display: -webkit-box;
   display: -webkit-flex;
@@ -988,7 +992,6 @@ footer ul {
 
 .socials:hover {
   color: #509949;
-
 }
 
 .page-title {
@@ -1034,8 +1037,6 @@ a:active {
   padding: 20px;
   text-align: center;
 }
-
-
 
 /*mouce scroll button*/
 #mouce-icon a {
@@ -1175,7 +1176,7 @@ a:active {
   }
 }
 
-/*iphone x*/
+/* iphone 6,7,8,x */
 @media screen and (max-width: 375px) and (min-width: 373px) {
   #mouce-icon a span {
     position: absolute;
@@ -1184,7 +1185,7 @@ a:active {
     width: 30px;
     background-color: transparent;
     height: 50px;
-    margin-top: 770px;
+    margin-top: 670px;
     margin-left: -15px;
     border: 2px solid #fff;
     border-radius: 50px;
