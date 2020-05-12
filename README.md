@@ -1,8 +1,8 @@
-# DOG SERVICES
+# THE DOGGY HUB
 
-[The Doggy Services](https://frankkode.github.io/dog-service/)
+[The Doggy Hub](https://frankkode.github.io/dog-service/)
 
-The doggy services is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden and neighbors countries,take care of abandoned dogs and help to find new home for them
+The Doggy Hub is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden and neighbors countries,take care of abandoned dogs and help to find new home for them
 
 In order to help them achieve this, the users are able to add location, type of service he want and search. The user will be able to locate all the nearby "dog services" around their area,or contact us if he want to give away his dog.
 
