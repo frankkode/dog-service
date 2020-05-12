@@ -2,9 +2,9 @@
 
 [The Doggy Services](https://frankkode.github.io/dog-service/)
 
-The doggy services is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden and neighbors countries
+The doggy services is a web app that has been created to reach out to individuals who own dogs and help them to find dogs services around sweden and neighbors countries,take care of abandoned dogs and help to find new home for them
 
-In order to help them achieve this, the users are able to add location, type of service he want and search. The user will be able to locate all the nearby "dog services" around their area.
+In order to help them achieve this, the users are able to add location, type of service he want and search. The user will be able to locate all the nearby "dog services" around their area,or contact us if he want to give away his dog.
 
 Different links concern dog's life, behavious were provided on the footer
 
@@ -12,7 +12,7 @@ Furthermore, the users are able to contact us for more information.
 
 ## THE PURPOSE
 
-The purpose of the appliciation is to enable Dog owners to quickly and easily locate dog services, by location.
+The purpose of the appliciation is to enable Dog owners to quickly and easily locate dog services by location, and save the dogs that have no homes.
 
 ## Developer goals
 
@@ -20,7 +20,8 @@ The purpose of the appliciation is to enable Dog owners to quickly and easily lo
 - Based upon the location entered, google API retrieve company location details, contact details, website links and reviews.
 - to be User friendly and simple to use.
 - To display the information in a clear and concise manner.
-- Translation of the web using google translator
+- Translation of the web using google translator.
+- Contact us if you do no longer have means to keep your dog.
 
 ## Users who would be interested in this web app: (Target dog owners)
 
@@ -31,6 +32,8 @@ The purpose of the appliciation is to enable Dog owners to quickly and easily lo
 - Someone looking for dog's clinic.
 - Someone looking for dog's gloom.
 - Someone looking for dog's trainer.
+- someone who want to give away his dog.
+- someone who want to adopt a dog.
 
 ## Demo
 
@@ -63,6 +66,8 @@ MAIN PAGE : ![Alt](assets/images/home.png "main")
 - As a user, I want to know where to find dog's groom.
 - As a user, I want to know where to find dog's shop.
 - As a user, I want to know where to find dog's walk ground .
+- As a user, i want a dog to adopt.
+- As a user, i want to give away my dog.
 
 ## Build Approach
 
@@ -115,14 +120,13 @@ SERVICES small screen: ![Alt](assets/images/service-small.png "services")
 
 SERVICES big screen: ![Alt](assets/images/service-search.png "services")
 
-## LOVE SECTION
+## ADOPTION SECTION
 
-- here you can find the loved dogs
-  pictures and names
+- here you can find pictures and names of the dogs that are waiting to get new homes
 
-LOVED DOGS small screen: ![Alt](assets/images/love-small.png "love")
+ADOPTION DOGS small screen: ![Alt](assets/images/love-small.png "love")
 
-LOVED DOGS big screen: ![Alt](assets/images/love.png "love")
+ADOPTION DOGS big screen: ![Alt](assets/images/love.png "love")
 
 ## Contact Page
 
