@@ -185,6 +185,8 @@ Setting the contact page to send an automated email to the recipient once they s
 
 [Gradient](https://cssgradient.io/) free color mixer
 
+[Kibalabs](https://everysize.kibalabs.com/) was used for testing
+
 [Coveer](https://coverr.co/search?q=dog)a free video
 
 ## Testing
@@ -202,10 +204,14 @@ The following have been tested from a user’s perspective to ensure the web app
 
 ## Manual and technical testing of the site was undertaken and passed
 
-1. Chrome/Firefox dev tools was used throughout to test responsiveness and function.
-2. Testing the site across different devices in real world scenarios. Mobiles, Tablets, Laptops, and Desktops.
-3. Giving the application to third party users to get feedback, and see if they could "break" the application.
-4. W3C code validator to pass HTML, CSS and JS.
+- Chrome/Firefox dev tools was used throughout to test responsiveness and function.
+- Testing the site across different devices in real world scenarios. Mobiles, Tablets, Laptops, and Desktops.
+
+ALL DEVICES: ![Alt](assets/images/devices.png "test")
+
+- Giving the application to third party users to get feedback, and see if they could "break" the application.
+
+- W3C code validator to pass HTML, CSS and JS.
 
 HTML TEST: ![Alt](assets/images/html.png "test")
 
@@ -213,7 +219,7 @@ CSS TEST: ![Alt](assets/images/css.png "test")
 
 JAVASCRIPT Test: ![Alt](assets/images/javascript.png "test")
 
-5.I tested the application across multiple desktop browsers including Firefox, Chrome, Opera and Safari and all is well with these browsers.
+- I tested the application across multiple desktop browsers including Firefox, Chrome, Opera and Safari and all is well with these browsers.
 
 Test: ![Alt](assets/images/console.png "test")
 
